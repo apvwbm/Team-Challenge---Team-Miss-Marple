@@ -4,6 +4,8 @@ import sqlite3
 conn = sqlite3.connect('resultado.db')
 cursor = conn.cursor()
 
+# Se crean cinco tablas para almacenar proveedores, categorías, piezas y sus relaciones.
+
 # Crear las tablas
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS proveedor (
@@ -53,7 +55,9 @@ cursor.execute("""
     )
 """)
 
-# Insertar datos representativos
+# Insertar datos representativos para simular el funcionamiento de la base de datos.
+
+
 cursor.execute("INSERT INTO proveedor (idProveedor, nombre, direccion, ciudad, provincia) VALUES (?, ?, ?, ?, ?)", (1, 'Proveedor A', 'Calle Ficticia 123', 'Ciudad A', 'Provincia A'))
 cursor.execute("INSERT INTO proveedor (idProveedor, nombre, direccion, ciudad, provincia) VALUES (?, ?, ?, ?, ?)", (2, 'Proveedor B', 'Avenida Falsa 456', 'Ciudad B', 'Provincia B'))
 
