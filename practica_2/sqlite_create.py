@@ -1,7 +1,7 @@
 import sqlite3
 
 # Conexión a SQLite
-conn = sqlite3.connect('resultado.db')
+conn = sqlite3.connect('resultado_Miss_Marple.db')
 cursor = conn.cursor()
 
 # Se crean cinco tablas para almacenar proveedores, categorías, piezas y sus relaciones.
@@ -80,4 +80,7 @@ conn.commit()
 cursor.close()
 conn.close()
 
-print("BBDD creada y datos insertados correctamente al archivo resultado.db.")
+print("BBDD creada y datos insertados correctamente al archivo resultado_Miss_Marple.db.")
+
+
+
