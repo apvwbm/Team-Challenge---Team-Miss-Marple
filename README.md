@@ -2,17 +2,7 @@
 
 Este repositorio contiene dos ejercicios prácticos relacionados con bases de datos.
 
-## Práctica 1: Diseño de Base de Datos
-El objetivo es diseñar un modelo de datos para gestionar información sobre proveedores, piezas y categorías:
-- **Proveedores**: Información como nombre, dirección y código único.
-- **Piezas**: Detalles como nombre, código único, color, precio y categoría.
-- **Relaciones**: Histórico de suministros entre proveedores y piezas.
-
-### Entregables
-- Modelo de datos en formato imagen (png).
-- **Extra**: Un script/notebook en Python para crear y poblar la base de datos `py sqlite_create.py`.
-
-## Práctica 2: SQL Murder
+## Práctica 1: SQL Murder
 Resolver un caso de asesinato ocurrido en **SQL City** el 15/01/2018 utilizando consultas SQL:
 - Investiga el caso usando un esquema de base de datos predefinido.
 - Documenta las consultas y el resultado en un notebook.
@@ -20,6 +10,17 @@ Resolver un caso de asesinato ocurrido en **SQL City** el 15/01/2018 utilizando 
 ### Entregables
 - Notebook con las consultas y la solución del caso.
 - Presentación breve de los hallazgos.
+
+## Práctica 2: Diseño de Base de Datos
+El objetivo es diseñar un modelo de datos para gestionar información sobre proveedores, piezas y categorías:
+- **Proveedores**: Información como nombre, dirección y código único.
+- **Piezas**: Detalles como nombre, código único, color, precio y categoría.
+- **Relaciones**: Histórico de suministros entre proveedores y piezas.
+
+### Entregables
+- Modelo de datos en formato imagen (png).
+- **Extra**: El notebook 'datos_representativos' en Python para crear y poblar la base de datos `py sqlite_create.py`.
+
 
 ## Cómo Ejecutar
 1. **Práctica 1**: Consulta el diagrama en `diagrama-er.png` y ejecuta el script en `py sqlite_create.py`.
